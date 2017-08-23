@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+<style>
+  *{ margin:0;
+     padding:0;
+  
+  }
+.p1
+  {  width:100%;
+     height:978px;
+     background-color:rgb(42,181,97);
+    
+
+   }
+.shield 
+   {
+     width:500px;   
+     padding:200px 0 0 200px;
+    display:block;
+	float:left;
+
+   }
+   .p2{
+       transform:translate(200px, 50px)rotate(45deg);
+   }
+   .p3{transform:translate(300px, 45px)rotate(60deg);}
+
+   .p4{transform:translate(268px, 35px)rotate(50deg);}
+
+   .p5{transform:translate(320px, 45px)rotate(48deg);}
+
+   .p6{transform:translate(358px, 35px)rotate(35deg);}
+
+   .p7{transform:translate(350px, 50px)rotate(40deg);} 
+
+   .p8{transform:translate(380px, 60px)rotate(32deg);}
+
+   .p9{transform:translate(400px, 30px)rotate(16deg);}
+
+   .p0{transform:translate(415px, 65px)rotate(25deg);}
+
+   .new img {
+   transform:translate(0px, 0px)rotate(0deg);
+   transition:all 2s ease-out 0.2s;
+   }
+	.info{
+	display:block;
+	float:left;
+	padding:300px 0 0 200px;
+}
+
+
+  </style>
+  <div class="p1">
+  <div class="shield">
+  <img src="shield_1.png"class="p2">
+  <img src="shield_2.png"class="p3">
+  <img src="shield_3.png"class="p4">
+  <img src="shield_4.png"class="p5">
+  <img src="shield_5.png"class="p6">
+  <img src="shield_6.png"class="p7">
+  <img src="shield_7.png"class="p8">
+  <img src="shield_8.png"class="p9">
+  <img src="shield_9.png"class="p0">
+  </div>
+
+  <div class="info">
+  <img src="info_2.png">
+  </div>
+  </div>
+  <script src="1.js"> </script>
+
+<script>
+  setTimeout(function(){
+   $(".shield").addClass("new");
+   },2000);
+ </script>
+
+
+ </body>
+</html>
